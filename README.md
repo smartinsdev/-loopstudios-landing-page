@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/smartinsdev/-loopstudios-landing-page)
-- Live Site URL: [Versel Deploy](https://loopstudios-landing-page-smartinsdev.vercel.app/)
+- Live Site URL: [Vercel Deploy](https://loopstudios-landing-page-smartinsdev.vercel.app/)
 
 ## My process
 
