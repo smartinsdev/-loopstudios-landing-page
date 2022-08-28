@@ -1,0 +1,19 @@
+.wrapMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 3;
+    transition: transform 0.3s ease-in-out;
+}
+
+@media screen and (min-width : 768px){
+    .wrapMenu {
+        display: none;
+    }
+}
