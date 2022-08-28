@@ -49,7 +49,7 @@ export const Product = () => {
         }
       </div>
       <div className={styles.viewProduct}>
-        <Link href="/product">
+        <Link href="/product" target="_blank" rel="noreferrer">
           <a className={styles.link}>see all</a>
         </Link>
       </div>

@@ -15,7 +15,7 @@ export const Footer = () => {
       <ul className={styles.itensGroup}>
         {navItens.map((item, index) => (
           <li key={index}>
-            <Link href={item}>
+            <Link href={item} target="_blank" rel="noreferrer">
               <a className={styles.link}>{item}</a>
             </Link>
           </li>
@@ -30,8 +30,8 @@ export const Footer = () => {
       </div>
       <p className={styles.copyright}>© 2021 Loopstudios. All rights reserved.</p>
       <div className={styles.attribution}>
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-            Coded by <a href="#">Your Name Here</a>.
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
+            Coded by <a href="#" target="_blank" rel="noreferrer">Your Name Here</a>.
         </div>
     </footer>
   );

@@ -7,7 +7,7 @@ export const NavItems = () => {
     <ul className={styles.navGroup}>
       {navItens.map((item, index) => (
         <li key={index} className={styles.container}>
-          <Link href={`${item.toLowerCase()}/`}>
+          <Link href={`${item.toLowerCase()}/`} target="_blank" rel="noreferrer">
             <a className={styles.link}>{item}</a>
           </Link>
         </li>
